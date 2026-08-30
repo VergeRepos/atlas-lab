@@ -6,7 +6,7 @@
 
 **A production-quality desktop application for researchers, students, and developers**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![React 18](https://img.shields.io/badge/react-18-blue.svg)](https://react.dev/)
 [![Tauri 2.0](https://img.shields.io/badge/tauri-2.0-blue.svg)](https://tauri.app/)
