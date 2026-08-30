@@ -1,0 +1,50 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+"sqlalchemy[asyncio]">=2.0.23
+aiofiles>=23.2.1
+httpx>=23.1.0
+sentence-transformers>=2.2.2
+pdfminer.six>=20231018
+tqdm>=4.66.0
+python-multipart>=0.0.18
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dateutil>=2.8.2
+pathlib>=1.0.0
+structlog>=23.2.0
+psutil>=5.9.7
+pyyaml>=6.0
+click>=8.1.0
+rich>=13.7.0
+httpx[socks]>=0.24.0
+
+# ML and Data Science
+pandas>=2.0.3
+scikit-learn>=1.3.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+graphviz>=0.20.1
+networkx>=3.1.0
+
+# Document processing
+mammoth>=1.5.0
+python-docx>=1.1.0
+
+# Security and validation
+cryptography>=41.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Optional dependencies
+# tensorflow>=2.13.0  # for advanced ML
+# torch>=2.0.0  # for PyTorch experiments
+# docker>=6.0.0  # for experiment reproducibility
+
+# Development dependencies (not required for production)
+# pytest>=7.4.0
+# black>=23.11.0
+# mypy>=1.7.0
+# isort>=5.13.0
