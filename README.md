@@ -24,75 +24,75 @@ Atlas Lab is a comprehensive AI-powered research workstation that runs entirely 
 ![Dashboard Overview](docs/images/dashboard-overview.png)
 *Main dashboard showing research projects, recent activity, and quick actions*
 
-## ✨ Key Features
+##  Key Features
 
-### 🔬 Research Workspace
+###  Research Workspace
 Create research projects with questions, hypotheses, experiments, and notes. Track your entire research lifecycle in one place.
 
 ![Research Workspace](docs/images/research-workspace.gif)
 *Creating a new research project and adding experiments*
 
-### 📚 Document Processing
+###  Document Processing
 Import PDFs, TXT, Markdown, CSV, and DOCX files. Automatic text extraction, chunking, and embedding generation.
 
 ![Document Import](docs/images/document-import.gif)
 *Importing and processing multiple document types*
 
-### 🤖 RAG Assistant
+###  RAG Assistant
 Ask questions about your documents and get AI-powered answers with source citations, relevance scores, and page numbers.
 
 ![RAG Assistant](docs/images/rag-assistant.png)
 *AI assistant providing answers with source attribution*
 
-### 🕸️ Knowledge Graph
+###  Knowledge Graph
 Automatically build and visualize relationships between concepts, documents, and entities. Interactive force-directed graph with search and filtering.
 
 ![Knowledge Graph](docs/images/knowledge-graph.png)
 *Interactive knowledge graph showing concept relationships*
 
-### 🧪 ML Lab
+###  ML Lab
 Run machine learning experiments with classification, regression, and clustering. Full reproducibility with parameter tracking and metrics.
 
 ![ML Lab](docs/images/ml-lab.gif)
 *Running a classification experiment on customer churn data*
 
-### 📊 Data Analysis
+###  Data Analysis
 Import CSV datasets and get automatic statistics, correlations, distributions, and visualizations.
 
 ![Data Analysis](docs/images/data-analysis.png)
 *CSV analysis showing statistics and correlations*
 
-### 🎓 Learning Mode
+###  Learning Mode
 Structured learning paths for topics like Linear Algebra, Neural Networks, and Transformers. Track progress and mastery.
 
 ![Learning Mode](docs/images/learning-mode.png)
 *Learning path with topic breakdown and progress tracking*
 
-### 🗂️ Spaced Repetition
+###  Spaced Repetition
 Adaptive flashcard system using the SM-2 algorithm. Auto-generate cards from your notes and optimize review scheduling.
 
 ![Flashcards](docs/images/flashcards.gif)
 *Reviewing flashcards with quality rating*
 
-### 📝 Paper Workspace
+###  Paper Workspace
 Write technical papers with automatic citation management, reference formatting (APA/MLA/IEEE), and document statistics.
 
 ![Paper Workspace](docs/images/paper-workspace.png)
 *Writing a research paper with citation insertion*
 
-### ⌨️ Command Palette
+###  Command Palette
 Quick access to all features with `Ctrl+K` / `Cmd+K`. Search commands, navigate, and execute actions without leaving the keyboard.
 
 ![Command Palette](docs/images/command-palette.png)
 *Command palette for quick navigation*
 
-### 📈 System Monitoring
+###  System Monitoring
 Real-time CPU, RAM, and disk usage. Monitor your system while running intensive ML experiments.
 
 ![System Monitor](docs/images/system-monitor.png)
 *System monitoring dashboard*
 
-## 🚀 Installation
+##  Installation
 
 ### Quick Start (Recommended)
 
@@ -127,7 +127,7 @@ cargo tauri dev
 
 For detailed installation instructions, see [INSTALL.md](INSTALL.md).
 
-## 📸 Screenshots
+##  Screenshots
 
 <details>
 <summary>Click to expand all screenshots</summary>
@@ -155,7 +155,7 @@ For detailed installation instructions, see [INSTALL.md](INSTALL.md).
 
 </details>
 
-## 🎬 Demo Videos
+##  Demo Videos
 
 | Feature | Demo |
 |---------|------|
@@ -165,7 +165,7 @@ For detailed installation instructions, see [INSTALL.md](INSTALL.md).
 | **ML Experiment** | ![ML Demo](docs/images/demo-ml.gif) |
 | **Knowledge Graph** | ![Graph Demo](docs/images/demo-graph.gif) |
 
-## 🏗️ Architecture
+##  Architecture
 
 Atlas Lab uses a clean, modular architecture:
 
@@ -199,7 +199,7 @@ Atlas Lab uses a clean, modular architecture:
 - **Database**: SQLite with vector extensions
 - **AI**: Ollama (local), OpenAI/Anthropic (optional)
 
-## 📖 Documentation
+##  Documentation
 
 - [Installation Guide](INSTALL.md)
 - [Development Guide](DEVELOPMENT.md)
@@ -209,7 +209,7 @@ Atlas Lab uses a clean, modular architecture:
 - [Security Policy](SECURITY.md)
 - [Performance Benchmarks](BENCHMARKS.md)
 
-## 🧪 Example Project
+##  Example Project
 
 Atlas Lab includes a complete example: **"Does Retrieval Strategy Affect RAG Answer Quality?"**
 
@@ -221,7 +221,7 @@ This demonstrates:
 
 Run it: `File → Open Example Project → RAG Comparison`
 
-## 🛠️ Development
+##  Development
 
 ### Running Tests
 
@@ -257,7 +257,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
 - Pull request process
 - Testing requirements
 
-## 📊 Performance
+##  Performance
 
 | Operation | Time | Memory |
 |-----------|------|--------|
@@ -268,7 +268,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
 
 See [BENCHMARKS.md](BENCHMARKS.md) for detailed performance metrics.
 
-## 🔒 Privacy & Security
+##  Privacy & Security
 
 - **Offline-first**: Works without internet
 - **Local processing**: All AI runs on your machine by default
@@ -278,7 +278,7 @@ See [BENCHMARKS.md](BENCHMARKS.md) for detailed performance metrics.
 
 See [SECURITY.md](SECURITY.md) for security guidelines.
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Multimodal document processing (images, audio)
 - [ ] Real-time collaboration features
@@ -291,7 +291,7 @@ See [SECURITY.md](SECURITY.md) for security guidelines.
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 Built with these amazing open-source projects:
 - [Tauri](https://tauri.app/) - Desktop framework
@@ -300,12 +300,12 @@ Built with these amazing open-source projects:
 - [sentence-transformers](https://www.sbert.net/) - Embedding models
 - [scikit-learn](https://scikit-learn.org/) - Machine learning
 
-## 📮 Support
+##  Support
 
-- 📖 [Documentation](docs/)
-- 🐛 [Report Bug](https://github.com/yourusername/atlas-lab/issues)
-- 💡 [Request Feature](https://github.com/yourusername/atlas-lab/issues)
-- 💬 [Discussions](https://github.com/yourusername/atlas-lab/discussions)
+-  [Documentation](docs/)
+-  [Report Bug](https://github.com/yourusername/atlas-lab/issues)
+-  [Request Feature](https://github.com/yourusername/atlas-lab/issues)
+-  [Discussions](https://github.com/yourusername/atlas-lab/discussions)
 
 ---
 
