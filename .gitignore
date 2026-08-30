@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend-python/__pycache__/
+backend-python/**/__pycache__/
+backend-python/.pytest_cache/
+backend-python/**/.pytest_cache/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend-tauri/target/
+backend-python/**/*.pyc
+backend-python/**/*.pyo
+backend-python/**/*.pyd
+
+# Environment
+.env
+.env.local
+.env.*.local
+backend-python/.env
+backend-python/venv/
+backend-python/env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lock files (optional - include if using npm)
+# frontend/package-lock.json
+
+# Test coverage
+frontend/coverage/
+backend-python/.coverage
+backend-python/htmlcov/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Python virtual environments
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+*$py.class
+
+# Rust
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Tauri
+backend-tauri/WixTools/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
